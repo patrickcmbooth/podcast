@@ -27,3 +27,7 @@ paginate = 10
 
 [taxonomies]
   category = "categories"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
