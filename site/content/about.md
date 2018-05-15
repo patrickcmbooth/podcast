@@ -7,33 +7,65 @@ featured_image = "/images/featured_images/about-page-hero-img.jpg"
 subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Cloud Platform!"
 +++
 
-### Current Hosts
 
-The current hosts of the show are:
+ <div class="row">
+  <div class="col-12 text-left">
 
-#### Mark Mandel
+## Current Hosts
 
-![Mark Mandel](/images/hosts/Mark_Mandel.png)
+  </div>
 
-Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature.
+  <div class="col-12">
 
-- [Twitter](https://www.twitter.com/neurotic)
-- [Website](http://www.compoundtheory.com)
+{{% profile 
+	"/images/hosts/Mark_Mandel.png" 
+	"Mark Mandel" 
+	"Developer Advocate, Google Cloud Platform" 
+	"Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
+%}}
 
-#### Melanie Warrick
-![Melanie Warrick](/images/hosts/Melanie_Warrick.png)
+[Twitter](https://www.twitter.com/neurotic) / 
+[Website](http://www.compoundtheory.com)
 
-Melanie Warrick is a Developer Relations Engineer for AI and the Cloud at Google and speaks a lot about AI and ML. She was a founding engineer on a deep learning platform prior to Google and worked on machine learning engineering at Change.org. In another life she had a comprehensive consulting career, as an IC and leading teams both domestic and international and before that she was working behind the scenes in the film industry. In her spare time, she sleeps.
+{{% /profile %}}
 
-- [Twitter](https://www.twitter.com/nyghtowl)
-- [Website](http://www.nyghtowl.com/)
+  </div>
 
-### Hosts Memoriam
+  <div class="col-12">
 
-#### Francesc Campoy Flores
-![Francesc Campoy Flores](/images/hosts/Francesc_Campoy_Flores.png)
+{{% profile 
+	"/images/hosts/Melanie_Warrick.png" 
+	"Melanie Warrick" 
+	"Developer Relations Engineer, AI and the Cloud at Google"
+	"Melanie Warrick is a Developer Relations Engineer for AI and the Cloud at Google and speaks a lot about AI and ML. She was a founding engineer on a deep learning platform prior to Google and worked on machine learning engineering at Change.org. In another life she had a comprehensive consulting career, as an IC and leading teams both domestic and international and before that she was working behind the scenes in the film industry. In her spare time, she sleeps." 
+%}}
 
-Francesc Campoy Flores was an original co-host of the podcast and Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers. He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be.
+[Twitter](https://www.twitter.com/nyghtowl) / 
+[Website](http://www.nyghtowl.com/)
 
-- [Twitter](https://www.twitter.com/francesc)
-- [Website](http://www.campoy.cat/)
+{{% /profile %}}
+
+   </div>
+
+   <div class="col-12 text-left mt-4">
+
+## Hosts Memoriam
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Francesc_Campoy_Flores.png" 
+	"Francesc Campoy Flores" 
+	"Developer Advocate, Go and the Cloud at Google"
+	"Francesc Campoy Flores was an original co-host of the podcast and Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers. He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be." 
+%}}
+
+[Twitter](https://www.twitter.com/francesc) / 
+[Website](http://www.campoy.cat/)
+
+{{% /profile %}}
+
+  </div>
+</div>
