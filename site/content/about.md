@@ -3,6 +3,7 @@ date = "2015-08-04T18:59:22Z"
 draft = false
 title = "About Google Cloud Platform Podcast"
 description = "All about the Google Cloud Platform Podcast"
+featured_image = "/images/featured_images/about-page-hero-img.jpg"
 +++
 
 Tune in every week to listen to Francesc and Mark discuss Google Cloud Platform!
