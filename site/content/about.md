@@ -4,9 +4,8 @@ draft = false
 title = "About Google Cloud Platform Podcast"
 description = "All about the Google Cloud Platform Podcast"
 featured_image = "/images/featured_images/about-page-hero-img.jpg"
+subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Cloud Platform!"
 +++
-
-Tune in every week to listen to Francesc and Mark discuss Google Cloud Platform!
 
 ### Current Hosts
 
