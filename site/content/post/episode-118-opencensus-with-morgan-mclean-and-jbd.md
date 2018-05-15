@@ -10,7 +10,8 @@ episodeNumber = 118
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "OpenCensus with Morgan McLean and JBD"
 linked = true
-image="/images/post/opencensus.png"
+featured_image = "/images/featured_images/Hero--Image--logo--b.jpg"
+image="/images/post/opencensus.png"	
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/XCpyBQzvAcw"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/84f1ta/episode_118_opencensus_with_morgan_mclean_and_jbd/"
 +++

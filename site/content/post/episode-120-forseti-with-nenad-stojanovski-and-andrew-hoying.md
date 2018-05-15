@@ -10,6 +10,7 @@ episodeNumber = 120
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Forseti with Nenad Stojanovski and Andrew Hoying"
 linked = true
+featured_image = "/images/featured_images/Hero--Image.jpg"
 image="/images/post/forseti.png"
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/2ZFLosZwmdQ"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/87u6e7/episode_120_forseti_with_nenad_stojanovski_and/"

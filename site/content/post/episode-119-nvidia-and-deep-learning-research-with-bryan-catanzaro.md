@@ -10,6 +10,7 @@ episodeNumber = 119
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "NVIDIA and Deep Learning Research with Bryan Catanzaro"
 linked = true
+featured_image = "/images/featured_images/Hero--Image--logo.jpg"
 image="/images/post/nvidia2.png"
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/VgBiTAYq9uM"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/863ley/episode_119_nvidia_and_deep_learning_research/"
