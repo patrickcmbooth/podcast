@@ -7,25 +7,6 @@ description = "All about the Google Cloud Platform Podcast"
 
 Tune in every week to listen to Francesc and Mark discuss Google Cloud Platform!
 
-### Contact
-
-- Email: <a href="mailto:hello@gcppodcast.com">hello@gcppodcast.com</a>
-- Twitter: [GCPPodcast](https://twitter.com/gcppodcast)
-- Google Plus: [+GCPPodcast](http://google.com/+gcppodcast)
-- Reddit: [/r/gcppodcast](https://www.reddit.com/r/gcppodcast/)
-- Slack: [Request an invite](https://gcp-slack.appspot.com/) to the Google Cloud Slack community and join the [#podcast channel](https://googlecloud-community.slack.com/messages/podcast/).
-
-### Subscribe
-
-To subscribe to this podcast, there are several options:
-
-- Subscribe directly through our [RSS Feed](https://feeds.feedburner.com/GcpPodcast)
-- Subscribe through [iTunes](https://itunes.apple.com/us/podcast/google-cloud-platform-podcast/id1053299163)
-- Listen on [Google Play Music Podcasts](https://play.google.com/music/m/Iqkxpgvsbeejmz6d3g77qabpvme?t=Google_Cloud_Platform_Podcast)
-- Listen on [Stitcher Radio](http://www.stitcher.com/podcast/google-cloud-platform-podcast?refid=stpr)
-- Subscribe via [Email](https://feedburner.google.com/fb/a/mailverify?uri=GcpPodcast&loc=en_US)
-- More to come...
-
 ### Current Hosts
 
 The current hosts of the show are:
