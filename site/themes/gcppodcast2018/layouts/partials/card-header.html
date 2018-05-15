@@ -1,0 +1,9 @@
+<div class="mdl-card__title">
+  <header class="mdl-card__title-text mdl-color-text--contrast">
+    <a href="{{ .RelPermalink }}">
+      <span class="episode-number">#{{ .Params.episodenumber }}</span> {{ .Title }}</a>
+  </header>
+</div>
+<div class="mdl-card__supporting-text postDate">
+  {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+</div>
