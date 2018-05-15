@@ -5,7 +5,7 @@ theme = "gcppodcast2018"
 
 relativeURLs = true
 
-paginate = 10
+paginate = 9
 
 #Site Params
 [params]
