@@ -22,13 +22,14 @@ if(searchQuery){
 
   if ( location.search.slice(3, this.location.search.length) !== "" ) {
       // console.log('yes');
+      $('img').slideUp();
       $('h1').append(' results for '+ searchQuery);
+  
   }
 
-  $('#search-results').text('loading...');
   $("#search-query").val(searchQuery);
   executeSearch(searchQuery); 
-  $('#search-results').text('');
+  
 
 
 }
@@ -39,6 +40,8 @@ if(searchQuery){
 
 
 function executeSearch(searchQuery){
+
+  $('#search-results').text('loading...');
   $.getJSON( "/index.json", function( data ) {
     var pages = data;
     var fuse = new Fuse(pages, fuseOptions);
@@ -47,9 +50,9 @@ function executeSearch(searchQuery){
 
     if(result.length > 0){
       populateResults(result);
-
     }else{
-      $('#search-results').append("<p>No matches found</p>");
+      $('#search-results').text('');
+      $('#search-results').append("<div class='container' style='margin-top:3em; margin-bottom:3em;'><h3>No matches found</h3></div>");
     }
   });
 
@@ -59,6 +62,7 @@ function executeSearch(searchQuery){
 }
 
 function populateResults(result){
+   $('#search-results').text('');
   $.each(result,function(key,value){
     var contents= value.item.contents;
     var snippet = "";
@@ -95,6 +99,7 @@ function populateResults(result){
     var templateDefinition = $('#search-result-template').html();
     //replace values
     var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
+    // $('#search-results').text('');
     $('#search-results').append(output);
 
     // $.each(snippetHighlights,function(snipkey,snipvalue){
