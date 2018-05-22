@@ -13,6 +13,9 @@ title = "SRE vs Devops with Liz Fong-Jones and Seth Vargo"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/WUBmYSKbJUd"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8jvzkp/episode_127_sre_vs_devops_with_liz_fongjones_and/"
+[[resources]]
+  src = "images/hero/Hero1.jpg"
+  name = "fimage"
 +++
 
 This week is a clash of titans! [Liz Fong-Jones](https://twitter.com/lizthegrey) and [Seth Vargo](https://twitter.com/sethvargo)
