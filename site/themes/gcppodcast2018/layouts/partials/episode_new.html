@@ -6,47 +6,29 @@
 
 			{{ if .Resources.Match "fimage" }}
 	
-				{{ with .Resources.Match "fimage" }}
+				{{ with .Resources.GetMatch "fimage" }}
 
-				    {{ range . }}
-				    
-				    <div class="card__header-img" style="background-image: url('{{ .RelPermalink }}')"> 
+				{{ $image400x := (.Resize "700x") }}
+
+				    <div class="card__header-img" style="background-image: url('{{ $image400x.RelPermalink }}')"> 
 				    	<div class="overlay">
 				    		<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
 				    	</div>
 				    </div>
 
-				    {{ end }}
 				{{ end }}
 
 			{{else}}
 
-			<div class="card__header-img ">
-				<div class="overlay">
-					<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
-				</div>
-				<span class="h1 text-center episodenumber">#{{ .Params.episodenumber }}</span>
-			</div>
+					<div class="card__header-img ">
+						<div class="overlay">
+							<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
+						</div>
+						<span class="h1 text-center episodenumber">#{{ .Params.episodenumber }}</span>
+					</div>
 
 			{{end}}
 
-
-
-
-<!-- 		{{if .Params.featured_image }}
-			<div class="card__header-img" style="background-image: url('{{ .Params.featured_image }}')"> 
-				<div class="overlay">
-					<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
-				</div>
-			</div>
-			{{ else }}
-			<div class="card__header-img ">
-				<div class="overlay">
-					<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
-				</div>
-				<span class="h1 text-center episodenumber">#{{ .Params.episodenumber }}</span>
-			</div>
-			{{end}} -->
 		</a>
 		
 
