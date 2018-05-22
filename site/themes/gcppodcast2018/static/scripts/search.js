@@ -22,7 +22,7 @@ if(searchQuery){
 
   if ( location.search.slice(3, this.location.search.length) !== "" ) {
       // console.log('yes');
-      $('img').slideUp();
+      $('.featured-section').slideUp();
       $('h1').append(' results for '+ searchQuery);
   
   }
@@ -41,7 +41,7 @@ if(searchQuery){
 
 function executeSearch(searchQuery){
 
-  $('#search-results').text('loading...');
+  $('#search-results').append("<div class='container' style='margin-top:3em; margin-bottom:3em;'><h3>Loading...</h3></div>");
   $.getJSON( "/index.json", function( data ) {
     var pages = data;
     var fuse = new Fuse(pages, fuseOptions);
@@ -51,7 +51,7 @@ function executeSearch(searchQuery){
     if(result.length > 0){
       populateResults(result);
     }else{
-      $('#search-results').text('');
+      $('#search-results').html('');
       $('#search-results').append("<div class='container' style='margin-top:3em; margin-bottom:3em;'><h3>No matches found</h3></div>");
     }
   });
@@ -62,7 +62,7 @@ function executeSearch(searchQuery){
 }
 
 function populateResults(result){
-   $('#search-results').text('');
+   $('#search-results').html('');
   $.each(result,function(key,value){
     var contents= value.item.contents;
     var snippet = "";
