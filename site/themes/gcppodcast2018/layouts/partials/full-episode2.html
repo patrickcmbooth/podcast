@@ -1,11 +1,22 @@
 <header class="container-fluid px-0 sr" >
     
-{{if .Params.featured_image }}
+<!-- {{if .Params.featured_image }}
 <div class="card__header-img single-hero" style="background-image: url('{{ .Params.featured_image }}')"> 
     
 </div>
-{{end}}
+{{end}} -->
+{{ with .Resources.Match "fimage" }}
+    {{ range . }}
 
+    <div class="card__header-img single-hero" style="background-image: url('{{ .RelPermalink }}')"> 
+        
+    </div>
+
+    {{ end }}
+{{ end }}
+<!-- <div class="card__header-img single-hero" style="background-image: url('{{ .Params.featured_image }}')"> 
+    
+</div> -->
 
 </header>
 <div class="container-fluid px-0 sr" style="margin-bottom: 4em;">
