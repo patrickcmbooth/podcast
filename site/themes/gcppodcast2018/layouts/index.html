@@ -7,12 +7,27 @@
 		{{ if eq .Type "post" }}
 	
 			<div class="slide">
+
+
+				{{ if .Resources.Match "fimage" }}
 				
-				{{if .Params.featured_image }}	
-				<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" 	style="background-image: url('{{ .Params.featured_image }}')"> 
+					{{ with .Resources.Match "fimage" }}
+
+					    {{ range . }}
+
+							<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" 	style="background-image: url('{{ .RelPermalink }}')"> 
+
+					    {{ end }}
+
+					{{ end }}
+
 				{{else}}
+
 				<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image no-featured-image" style="background-image: url('{{ .Params.image }}'); background-size: inherit; background-repeat: no-repeat;"> 
+
 				{{end}}
+
+
 				</div>
 
 					
