@@ -14,6 +14,9 @@ featured_image = "/images/featured_images/Hero--Image.jpg"
 image="/images/post/forseti.png"
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/2ZFLosZwmdQ"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/87u6e7/episode_120_forseti_with_nenad_stojanovski_and/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 Nenad Stojanovski and Andrew Hoying join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl)

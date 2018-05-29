@@ -13,6 +13,9 @@ image="/images/post/Kubernetes.png"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/SCECGdkPiz5"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/89rh7m/episode_121_kontributing_to_kubernetes_with_paris/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 [Paris Pittman](https://twitter.com/parisinbmore) and [Garrett Rodrigues](https://github.com/grodrigues3) join

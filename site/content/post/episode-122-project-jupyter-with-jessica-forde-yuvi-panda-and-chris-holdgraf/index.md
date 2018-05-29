@@ -13,6 +13,9 @@ image="/images/post/jupyter.png"
 linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/iJV5XoyPX1E"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8biwjs/project_jupyter_with_jessica_forde_yuvi_panda_and/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 [Jessica Forde](https://github.com/jzf2101), [Yuvi Panda](https://twitter.com/yuvipanda) and [Chris Holdgraf](https://twitter.com/choldgraf) join [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) to discuss Project Jupyter from it's interactive notebook origin story to the various open source modular projects it's grown into supporting data research and applications. We dive specifically into JupyterHub using Kubernetes to enable a multi-user server. We also talk about Binder, an interactive development environment that makes work easily reproducible.

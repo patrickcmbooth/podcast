@@ -14,6 +14,9 @@ featured_image = "/images/featured_images/Hero--Image--logo.jpg"
 image="/images/post/nvidia2.png"
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/VgBiTAYq9uM"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/863ley/episode_119_nvidia_and_deep_learning_research/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 [Bryan Catanzaro](https://twitter.com/ctnzr), the VP Applied Deep Learning Research at NVIDIA, joins [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) this week to discuss how his team uses applied deep learning to make NVIDIA products and processes better. We talk about parallel processing and compute with GPUs as well as his team's research in graphics, text and audio to change how these forms of communication are created and rendered by using deep learning. 

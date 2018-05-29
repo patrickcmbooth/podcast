@@ -13,6 +13,9 @@ title = "Beam and Spark with Holden Karau"
 linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/GMQs6Uop5vy"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8i8o7i/beam_and_spark_with_holden_karau/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 [Holden Karau](https://twitter.com/holdenkarau) is on the podcast this week to talk all about Spark and Beam, two open source tools that helps process data at scale, with [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl). 

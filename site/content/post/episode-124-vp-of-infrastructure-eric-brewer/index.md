@@ -13,6 +13,9 @@ title = "VP of Infrastructure Eric Brewer"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/Ga3atVNyFzr"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8euv68/episode_124_vp_of_infrastructure_eric_brewer/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 VP of Infrastructure at Google Cloud [Eric Brewer](https://twitter.com/eric_brewer), talks to 

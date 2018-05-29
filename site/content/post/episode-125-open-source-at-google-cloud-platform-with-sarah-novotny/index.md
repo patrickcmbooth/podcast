@@ -13,6 +13,9 @@ title = "Open Source at Google Cloud Platform with Sarah Novotny"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/X1Bd8oAMXZ9"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8giifl/episode_125_open_source_at_google_cloud_platform/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) are joined by
