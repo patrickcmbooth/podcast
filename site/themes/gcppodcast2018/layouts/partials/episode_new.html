@@ -8,9 +8,9 @@
 	
 				{{ with .Resources.GetMatch "fimage" }}
 
-				{{ $image400x := (.Resize "700x") }}
+				{{ $image := (.Resize "800x q50") }}
 
-				    <div class="card__header-img" style="background-image: url('{{ $image400x.RelPermalink }}')"> 
+				    <div class="card__header-img" style="background-image: url('{{ $image.RelPermalink }}')"> 
 				    	<div class="overlay">
 				    		<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
 				    	</div>

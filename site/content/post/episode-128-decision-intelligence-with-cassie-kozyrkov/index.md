@@ -13,6 +13,9 @@ title = "Decision Intelligence with Cassie Kozyrkov"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/BNvfJvt2iHz"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8llmam/episode_128_decision_intelligence_with_cassie/"
+[[resources]]
+  src = "**Hero1.jpg"
+  name = "fimage"
 +++
 
 Chief Decision Scientist, [Cassie Kozyrkov](https://twitter.com/quaesita) joins [Mark](https://twitter.com/Neurotic)

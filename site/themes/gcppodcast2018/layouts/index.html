@@ -11,15 +11,13 @@
 
 				{{ if .Resources.Match "fimage" }}
 				
-					{{ with .Resources.Match "fimage" }}
+					{{ with .Resources.GetMatch "fimage" }}
 
-					    {{ range . }}
+					    {{ $image := (.Resize "1920x q90") }}
 
-							<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" 	style="background-image: url('{{ .RelPermalink }}')"> 
+							<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" 	style="background-image: url('{{  $image.RelPermalink }}')"> 
 
-					    {{ end }}
-
-					{{ end }}
+						{{ end }}
 
 				{{else}}
 

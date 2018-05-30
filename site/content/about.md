@@ -8,12 +8,12 @@ subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Clou
 +++
 
 
- <div class="row">
-  <div class="col-12 text-left">
+<div class="row">
+   <div class="col-12 text-left">
 
-## Current Hosts
+   <h2>Current Hosts</h2>
 
-  </div>
+   </div>
 
   <div class="col-12">
 
@@ -49,7 +49,7 @@ subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Clou
 
    <div class="col-12 text-left mt-4">
 
-## Hosts Memoriam
+   <h2>Hosts Memoriam</h2>
 
    </div>
 
