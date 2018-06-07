@@ -8,6 +8,9 @@ description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed dia
 
 hosts = "Mark Mandel and Melanie Warrick"
 
+title_above_podcast_grid = "Lorem Ipsum Dolor"
+description_above_podcast_grid = "Tune in every week to listen to Mark and Melanie discuss Google Cloud Platform!"
+
 featured_iamge = "/images/hp/hero-img.jpg"
 
 

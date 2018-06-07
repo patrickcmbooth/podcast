@@ -90,8 +90,14 @@
 	<div class="row">
 		
 		<div class="container text-center mb-4 sr">
-			<h2 class="main-blue">Lorem Ipsum Dolor</h2>
-			<p>Tune in every week to listen to Mark and Melanie discuss Google Cloud Platform!</p>
+			{{ with .Params.title_above_podcast_grid }}
+			       <h2 class="main-blue">{{ . }}</h2>
+			{{ end }}
+
+			{{ with .Params.description_above_podcast_grid }}
+			       <p>{{ . }}</p>
+			{{ end }}
+			
 		</div>
 
 	</div>
