@@ -206,7 +206,7 @@ window.addEventListener("load", function() {
       // slidesToScroll: 3
     });
             
-    sr.reveal('.sr');
+    sr.reveal('.sr, .podcast-content--text > *');
 
     captureAudioPlay();
 
