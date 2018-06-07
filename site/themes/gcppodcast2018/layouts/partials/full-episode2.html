@@ -23,21 +23,21 @@
 
 
 
-<div class="container podcast-content sr">
+<div class="container podcast-content">
 
     <div class="row">
         
         <div class="col-md-7">
-            <h1>{{ .Title }}</h1>
-            <p>{{ .Content }}</p>
+            <h1 class="sr">{{ .Title }}</h1>
+            <div class="podcast-content--text">{{ .Content }}</div>
 
-            <h5>Hosts </h5>
-            <p>{{ delimit .Params.hosts ", " " and " }}</p>
+            <h5 class="sr">Hosts </h5>
+            <p class="sr">{{ delimit .Params.hosts ", " " and " }}</p>
         </div>
         
         <div class="col-md-5 sidebar">
 
-            <div class="sidebar-content">
+            <div class="sidebar-content sr">
 
                <div class="meta">
 
