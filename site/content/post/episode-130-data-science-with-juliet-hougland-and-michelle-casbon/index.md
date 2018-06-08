@@ -12,6 +12,9 @@ title = "Data Science with Juliet Hougland and Michelle Casbon"
 linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/cAW1HcMB6Xn"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8p36u6/data_science_with_juliet_hougland_and_michelle/"
+[[resources]]
+  src = "**Hero1.jpg"
+  name = "fimage"
 +++
 
 [Juliet Hougland](https://twitter.com/j_houg) and [Michelle Casbon](https://twitter.com/texasmichelle) are on the podcast this week to talk about data science with [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic). We had a great discussion about methodology, applications, tools, pipelines, challenges and resources. Juliet shared insights into the unique data science ownership workflow from idea to deployment at Stitch Fix, and Michelle dove into how Kubeflow is playing a role to help drive reliability in model development and deployment. 

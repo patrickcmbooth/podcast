@@ -12,6 +12,10 @@ title = "Developer Relations with Mandy Waite"
 linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/fc4SiXxkXdY"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8n9d5b/episode_129_developer_relations_with_mandy_waite/"
+[[resources]]
+  src = "**Hero1.jpg"
+  name = "fimage"
+
 +++
 
 [Mandy Waite](https://twitter.com/tekgrrl) joins [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to share what is developer relations and how trust and empathy are key to its success. We discuss meeting developers where they are and the wide variety of differing communities that exist across the technology ecosystem. 
