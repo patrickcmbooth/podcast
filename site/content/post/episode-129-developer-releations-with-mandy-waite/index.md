@@ -13,7 +13,7 @@ linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/fc4SiXxkXdY"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8n9d5b/episode_129_developer_relations_with_mandy_waite/"
 [[resources]]
-  src = "**Hero1.jpg"
+  src = "**Hero*.jpg"
   name = "fimage"
 
 +++

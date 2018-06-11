@@ -13,7 +13,11 @@ linked = true
 image="/images/post/dr-fei-fei-li.jpg"
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/4YkfJx8mDCw"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/82qc1j/episode_117_cloud_ai_with_dr_feifei_li/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
+
 
 [Dr. Fei-Fei Li](https://twitter.com/drfeifei), the Chief Scientist of AI/ML at Google joins [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) this week to talk about how Google enables businesses to solve critical problems through AI solutions. We talk about the work she is doing at Google to help reduce AI barriers to entry for enterprise, her research with Stanford combining AI and health care, where AI research is going, and her efforts to overcome one of the key challenges in AI by driving for more diversity in the field. 
 

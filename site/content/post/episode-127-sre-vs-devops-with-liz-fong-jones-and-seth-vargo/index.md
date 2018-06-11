@@ -14,7 +14,7 @@ linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/WUBmYSKbJUd"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8jvzkp/episode_127_sre_vs_devops_with_liz_fongjones_and/"
 [[resources]]
-  src = "**Hero10.jpg"
+  src = "**Hero*.jpg"
   name = "fimage"
 +++
 
