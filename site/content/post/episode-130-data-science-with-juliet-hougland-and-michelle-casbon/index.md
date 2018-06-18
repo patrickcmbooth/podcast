@@ -13,7 +13,7 @@ linked = true
 googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/cAW1HcMB6Xn"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8p36u6/data_science_with_juliet_hougland_and_michelle/"
 [[resources]]
-  src = "**Hero1.jpg"
+  src = "**Hero*.jpg"
   name = "fimage"
 +++
 

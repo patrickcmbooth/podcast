@@ -12,6 +12,9 @@ title = "Actions on Google with Mandy Chan"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/6k3TaXD6yQG"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/8qt9fz/episode_131_actions_on_google_with_mandy_chan/"
+[[resources]]
+  src = "**Hero*.jpg"
+  name = "fimage"
 +++
 
 This week is all about Voices! 🎶🎤🔊 [Mandy Chan](https://twitter.com/mandychannyc) joins 
