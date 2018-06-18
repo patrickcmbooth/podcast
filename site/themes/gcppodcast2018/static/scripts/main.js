@@ -142,7 +142,7 @@ window.addEventListener("load", function() {
 
     // var player = new Plyr(document.querySelectorAll('.player'));
 
-    const players = Array.from(document.querySelectorAll('.player')).map(player => new Plyr(player));
+    // const players = Array.from(document.querySelectorAll('.player')).map(player => new Plyr(player));
 
     // console.log('test');
     removeatag('.summary-block', 'a');
@@ -209,5 +209,9 @@ window.addEventListener("load", function() {
     sr.reveal('.sr, .podcast-content--text > *');
 
     captureAudioPlay();
+
+    var players = Array.from(document.querySelectorAll('.player')).map(function (player) {
+        return new Plyr(player);
+    });
 
 });
