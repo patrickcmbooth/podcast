@@ -144,6 +144,9 @@ window.addEventListener("load", function() {
 
     // const players = Array.from(document.querySelectorAll('.player')).map(player => new Plyr(player));
 
+    var players = Array.from(document.querySelectorAll('.player')).map(function (player) {
+        return new Plyr(player);
+    });
     // console.log('test');
     removeatag('.summary-block', 'a');
 
@@ -210,8 +213,5 @@ window.addEventListener("load", function() {
 
     captureAudioPlay();
 
-    var players = Array.from(document.querySelectorAll('.player')).map(function (player) {
-        return new Plyr(player);
-    });
 
 });

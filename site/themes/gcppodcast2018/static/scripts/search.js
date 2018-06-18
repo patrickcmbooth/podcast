@@ -22,7 +22,7 @@ if(searchQuery){
 
   if ( location.search.slice(3, this.location.search.length) !== "" ) {
       // console.log('yes');
-      $('.featured-section').slideUp();
+      $('.featured-section').hide();
       $('h1').append(' results for '+ searchQuery);
   
   }
