@@ -8,6 +8,10 @@ nav.navbar {
 
 	.brand {
 		max-width: 300px;
+
+		@include rm(480){
+			max-width: 200px;
+		}
 	}
 
 	.navbar-toggler {
